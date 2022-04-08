@@ -1,0 +1,161 @@
+body{
+  background-color: rgb(242, 242, 242);
+}
+
+html {
+  font-family: helvetica, arial, sans-serif;
+}
+h1, p {
+  position: relative;
+  top: 10px;
+}
+.header, .title, .CSStitle{
+  text-align: center;
+  font-size: 3em;
+  color: black;
+}
+.title {
+  position: absolute;
+  top: 80px;
+  left:850px;
+}
+.text{
+  position: absolute;
+  top:-15px;
+}
+.authorname{
+  position: absolute;
+  top:-15px;
+  left: 1700px;
+}
+
+.CSStitle{
+position: absolute;
+top:900px;
+left:850px;
+}
+.css1{
+  top: -310px;
+  left: 490px;
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+.css2{
+  top: -610px;
+  left: 770px;
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+.css3{
+  top: -750px;
+  left: 1050px;
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+.css4{
+  top: -820px;
+  left: 1330px;
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+.css5{
+  top: -1050px;
+  left: 210px;
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.box {
+  border:6px solid rgb(242, 242, 242); 
+  border-left-color: rgb(187, 154, 219);
+  border-left-width: 10px;
+  background: white;
+  text-align: center;
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.box:hover .hovering {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hovering {
+  transition: opacity .5s, visibility .5s;
+  position: absolute;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0,0,0,.8);
+  visibility: hidden;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.descHover {
+  top:-10px;
+  font-size: 1.2em;
+  transition: .5s;
+  color: white;
+}
+
+.tableROCOLContainer {
+  top: -910px;
+  left: 10px;
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.headerROCOLContainer {
+  top:-150px;
+  left: 300px;
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+.htmlROCOLContainer {
+  left: 600px;
+  top: 200px;
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+
+.pROCOLContainer{
+  top: -350px;
+  left: 900px;
+  position: relative;
+  height: 200px;
+  width: 257px;
+
+}
+
+.imgROCOLContainer {
+  top: -450px;
+  left: 1200px;
+  
+  
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.divROCOLContainer{
+  top: -790px;
+  left: 1500px;
+  position: relative;
+  height: 200px;
+  width: 257px;
+
+}

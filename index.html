@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & CSS QUICK REFERENCE GUIDE</title>
+  <link rel="stylesheet"  href="main.css">
+</head>
+<body>
+<div class="header">HTML & CSS QUICK REFERENCE GUIDE</div>
+<div class="title">HTML</div>
+<p class="text">Hover over the boxes for code sample.</p>
+<p class="authorname">Alezandro Gabriel Intal</p>
+
+<!---------------------------------------------------------------------------------->
+<div class="htmlROCOLContainer">
+<div class="box"><H1>&lt;html&gt; Tag</H1>
+  <p>Root of the HTML document. It stores all of the HTML elements in exception of the <code>&lt;!DOCTYPE&gt;</code> tag. </p>
+  <div class="hovering">
+    <p class="descHover"><code>&lt;html lang="en"&gt;<br>&lt;head&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br>&lt;/body&gt;<br>&lt;/html&gt;</code></p>
+  </div>
+</div>
+<br>
+<div class="box"><H1>&lt;!DOCTYPE html&gt; Tag</H1>
+  <p>It tells the browser to use HTML5. Commonly seen at the first line of HTML code. </p>
+  <div class="hovering">
+    <p class="descHover"><code>&lt;!DOCTYPE html&gt;<br>&lt;html lang="en"&gt;<br>&lt;head&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br>&lt;/body&gt;<br>&lt;/html&gt;</code></p>
+  </div>
+</div>
+</div>
+<br>
+<!------------------------------------------------------------------------------>
+<br>
+<div class="headerROCOLContainer">
+<div class="box"><H1>&lt;head&gt; Tag</H1>
+  <p>Used as a container to hold the metadata of the HTML. It's usually written between the html and body tag.</p>
+  <div class="hovering">
+    <p class="descHover"><code>&lt;head&gt;<br>&lt;title&gt;Document Title&lt;/title&gt;<br>&lt;/head&gt;</code></p>
+  </div>
+</div>
+<br>
+<div class="box"><H1>&lt;body&gt; Tag</H1>
+  <p>Used to display the main contents of the HTML.</p>
+  <div class="hovering">
+    <p class="descHover"><code>&lt;body&gt;<br>&lt;h1&gt;Sample Text&lt;/h1&gt;<br>&lt;/body&gt;</code></p>
+  </div>
+</div>
+<br>
+  <div class="box"><H1>&lt;H1&gt; Tag</H1>
+    <p>Used to display the title headings. It ranges from 1 to 6.</p>
+    <div class="hovering">
+      <p class="descHover"><code>&lt;h1&gt;Sample Header&lt;/H1&gt;//Biggest<br>&lt;h6&gt;Sample Header&lt;/H6&gt;//Smallest</code></p>
+    </div>
+  </div>
+  </div>
+  <br>
+<!------------------------------------------------------------------------------------->
+<div class="pROCOLContainer">
+<div class="box"><H1>&lt;p&gt; Tag</H1>
+  <p>Used to Display a paragraph of text.</p>
+  <div class="hovering">
+    <p class="descHover"><code>&lt;p&gt;The quick brown fox jump over the lazy dog. The quick brown fox jump over the lazy dog. The quick brown fox jump over the lazy dog. The quick brown fox jump over the lazy dog.&lt;/p&gt;</code></p>
+  </div>
+</div>
+<br>
+<div class="box"><H1>&lt;br&gt; Tag</H1>
+  <p>Used for line break. Good for seperating texts without opening and closing tags over and over again. <code>&lt;br&gt;</code> are empty tags so there's no need for an end tag</p>
+  <div class="hovering">
+    <p class="descHover"><code>&lt;p&gt;The quick brown fox jump over the lazy dog.&lt;br&gt; The quick brown fox jump over the lazy dog.&lt;br&gt; The quick brown fox jump over the lazy dog.&lt;br&gt; The quick brown fox jump over the lazy dog.&lt;/p&gt;</code></p>
+  </div>
+</div>
+<br>
+  <div class="box"><H1>&lt;a&gt; Tag</H1>
+    <p>This tag creates a hyperlink  and is commonly used with <code>href</code> attribute. Without <code>href</code>, it will only serve as a placeholder for hyperlink.</p>
+    <div class="hovering">
+      <p class="descHover"><code>&lt;a href="youtube.com"&gt;&lt;/a&gt;</code></p>
+    </div>
+  </div>
+  </div>
+  <br>
+  <!-------------------------------------------------------------------------------->
+<div class="imgROCOLContainer">
+<div class="box"><H1>&lt;img&gt; Tag</H1>
+  <p>Used to put an image in HTML followed by <code>src</code> to indicate the path of the image to use. If the image can't be displayed, <code>alt</code> attribute can be used to put a text in the image's place. </p>
+  <div class="hovering">
+    <p class="descHover"><code>&lt;img src="sans.png" alt="picture of sans from undertale."&gt;</code></p>
+  </div>
+</div>
+<br>
+<div class="box"><H1>&lt;style&gt; Tag</H1>
+  <p>Used to define a stylesheet or CSS that the HTML can use for design. It can be done internal or external of the HTML document.  </p>
+  <div class="hovering">
+    <p class="descHover"><code>&lt;style&gt;<br>body {<br> background-color: blue;<br>&lt;/style&gt;</code></p>
+  </div>
+</div>
+</div>
+<br>
+<!-------------------------------------------------------------------------------->
+<div class="divROCOLContainer">
+  <div class="box"><H1>&lt;div&gt; Tag</H1>
+    <p> It defines a division tag which seperates the tag from other tags. Can be easily stylized using CSS.</p>
+    <div class="hovering">
+      <p class="descHover"><code>&lt;div class="sampleDiv"&gt;<br>&lt;h2&gt;This is a heading of a sampleDiv.&lt;/h2&gt;<br>&lt;p&gt;This is a text of sampleDiv&lt;/p&gt;<br>&lt;/div&gt;</code></p>
+    </div>
+  </div>
+  <br>
+  <div class="box"><H1>&lt;!----&gt; Tag</H1>
+    <p>Displays a comment inside the HTML file. CSS use <code>/* */</code> for commenting</p>
+    <div class="hovering">
+      <p class="descHover"><code>&lt;div class="sampleDiv"&gt;<br>&lt;h2&gt;This is a heading of a sampleDiv.&lt;/h2&gt;<br>&lt;p&gt;This is a text of sampleDiv&lt;/p&gt;<br>&lt;/div&gt;<br>&lt;!--This is a comment--&gt;</code></p>
+    </div>
+  </div>
+  <br>
+    <div class="box"><H1>&lt;li&gt; Tag</H1>
+      <p>Used to define a list. Often used inside ordered list <code>&lt;ol&gt;</code> or unordered list<code>  &lt;ul&gt; </code> respectively.</p>
+      <div class="hovering">
+        <p class="descHover"><code>&lt;ol&gt;<br>&lt;li&gt;Coffee&lt;/li&gt;<br>&lt;li&gt;Tea&lt;/li&gt;<br>&lt;/ol&gt;<br>&lt;ul&gt;<br>&lt;li&gt;Coffee&lt;/li&gt;<br>&lt;li&gt;Tea&lt;/li&gt;<br>&lt;/ul&gt;</code></p>
+      </div>
+    </div>
+    </div>
+    <br>
+    <!---------------------------------------------------------------------------------->
+    <div class="tableROCOLContainer">
+      <div class="box"><H1>&lt;table&gt; Tag</H1>
+        <p>Displays a table in HTML. The <code>&lt;table&gt;</code> consists of <code>&lt;td&gt;</code> , <code>&lt;tr&gt;</code> , and <code>&lt;th&gt;</code>.</p>
+        <div class="hovering">
+          <p class="descHover"><code>&lt;table&gt;<br>&lt;tr&gt;<br>&lt;th&gt;Month&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;tr&gt;<br>&lt;td&gt;January&lt;/td&gt;<br>&lt;/tr&gt;</code></p>
+        </div>
+      </div>
+      <br>
+      <div class="box"><H1>&lt;footer&gt; Tag</H1>
+        <p>Used to display a footer on the document. Mainly seen below a website. </p>
+        <div class="hovering">
+          <p class="descHover"><code>&lt;footer&gt;<br>&lt;p&gt;Author: Intal<br>&lt;a href="mailto:abc@example.com"&gt;&lt;/a&gt;&lt;/p&gt;</code></p>
+        </div>
+      </div>
+      </div>
+<br>
+<br>
+<!---------------------------------------------------------------------------------->
+<div class="CSStitle">CSS</div>
+<div class="css1">
+<div class="box"><H1>border Property</H1>
+  <p>It makes a border of a certain element. </p>
+  <div class="hovering">
+    <p class="descHover"><code>p{<br>border: 1px solid green;<br>}</code></p>
+  </div>
+</div>
+<br>
+<div class="box"><H1>color Property</H1>
+  <p> It is used to specify a color of the text. </p>
+  <div class="hovering">
+    <p class="descHover"><code>h1{<br>color:red;<br>}</code></p>
+  </div>
+</div>
+</div>
+<br>
+<!------------------------------------------------------------------------------>
+<br>
+<div class="css2">
+<div class="box"><H1>padding Property</H1>
+  <p>It adjust the space between the content and the border of an element.</p>
+  <div class="hovering">
+    <p class="descHover"><code>div{<br>padding 10px 5px;<br>}</code></p>
+  </div>
+</div>
+<br>
+<div class="box"><H1>margin Property</H1>
+  <p>It sets the margin of a certain element.</p>
+  <div class="hovering">
+    <p class="descHover"><code>h1{<br>margin: 100px;<br>}</code></p>
+  </div>
+</div>
+<br>
+  <div class="box"><H1>font-family Property</H1>
+    <p>Used to tell the browser to use the given fonts. If the browser doesn't support the current font, it will try the other.</p>
+    <div class="hovering">
+      <p class="descHover"><code>html{<br>font-family: helvetica, arial, sans-serif;<br>}</code></p>
+    </div>
+  </div>
+  </div>
+  <br>
+<!------------------------------------------------------------------------------------->
+<div class="css3">
+<div class="box"><H1>overflow Property</H1>
+  <p>Used to clip or add scroll bars when the element gets too big to fit in a given area. </p>
+  <div class="hovering">
+    <p class="descHover"><code>div{<br>width:100px;<br>height:50px;<br>overflow: auto;<br>}</code></p>
+  </div>
+</div>
+<br>
+<div class="box"><H1>background-color Property</H1>
+  <p>Changes the background color of an element. Can also input RGB values or HEX codes instead of the color name. </p>
+  <div class="hovering">
+    <p class="descHover"><code>body{<br>background-color: blue;<br>}</code></p>
+  </div>
+</div>
+</div>
+<br>
+<!-------------------------------------------------------------------------------->
+<div class="css4">
+    <div class="box"><H1>text-align Property</H1>
+      <p>Used to properly align the element in a horizontal manner.</p>
+      <div class="hovering">
+        <p class="descHover"><code>h1{<br>text-align: center; <br>}</code></p>
+      </div>
+    </div>
+    </div>
+    <br>
+    <!---------------------------------------------------------------------------------->
+<div class="css5">
+  <div class="box"><H1>font-size Property</H1>
+    <p>Changes the size of the font.</p>
+    <div class="hovering">
+      <p class="descHover"><code>p{ <br> font-size: 20px;<br>}</code></p>
+    </div>
+  </div>
+  </div>
+  <br>
+</body>
+  
+</html>
